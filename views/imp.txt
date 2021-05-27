@@ -1,0 +1,15 @@
+<a href="/post">
+            <% for( int i=0; i<post.lenght; i++){ %>
+            <h2 class="post-title">
+            <%=  post[i].heading %>
+            </h2>
+            <h3 class="post-subtitle">
+              <%=  post[i].desc %>
+            </h3>
+          </a>
+          <p class="post-meta"><%=  post[i].name %>
+           
+            <%=  post[i].date %></p>
+        </div>
+        <hr>
+        <% } %>
